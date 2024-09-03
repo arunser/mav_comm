@@ -17,6 +17,13 @@ find_package(sensor_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(trajectory_msgs REQUIRED)
 
+include_directories(
+  include
+  ${Eigen3_INCLUDE_DIRS}
+  ${rclcpp_INCLUDE_DIRS}
+  ${rcl_INCLUDE_DIRS}
+)
+
 rosidl_generate_interfaces(${PROJECT_NAME}
   msg/Point2D.msg
   msg/PointCloudWithPose.msg

@@ -19,7 +19,7 @@
 #ifndef MAV_PLANNING_MSGS_EIGEN_MAV_MSGS_H
 #define MAV_PLANNING_MSGS_EIGEN_MAV_MSGS_H
 
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Eigen>
 #include <vector>
 
 namespace mav_planning_msgs {
