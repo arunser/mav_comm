@@ -26,7 +26,7 @@
 #include <geometry_msgs/msg/point.hpp>
 #include <geometry_msgs/msg/quaternion.hpp>
 #include <geometry_msgs/msg/vector3.hpp>
-#include <Eigen/Geometry>
+#include <eigen3/Eigen/Geometry>
 #include <boost/algorithm/clamp.hpp>
 
 namespace mav_msgs {
